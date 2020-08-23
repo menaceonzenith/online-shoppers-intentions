@@ -3,7 +3,7 @@ Rudy Wang
 
 ## Background
 
-For a classification project, I wanted to develop a stronger understanding of how data analysis can assist an online business's revenue generation from its unique visitors. My background in financial risk and compliance has never been about making money for a client - I wanted to better understand what kind of data can help a an online business interpret its potential buyers accurately. The dataset I will be using is from [Kaggle] (https://www.kaggle.com/roshansharma/online-shoppers-intention) with features of the dataset belonging to Google Analytics.
+For a classification project, I wanted to develop a stronger understanding of how data analysis can assist an online business's revenue generation from its unique visitors. My background in financial risk and compliance has never been about making money for a client - I wanted to better understand what kind of data can help a an online business interpret its potential buyers accurately. The dataset I will be using is from [Kaggle](https://www.kaggle.com/roshansharma/online-shoppers-intention) with features of the dataset belonging to Google Analytics.
 
 ## Mission
 
@@ -18,7 +18,7 @@ To classify visitors accurately to either be someone who will buy something off 
 
 ## Page Values
 
-Page Value as a feature is derived from Google Analytics. According to [Google Analytics] (https://support.google.com/analytics/answer/2695658?hl=en#:~:text=Page%20Value%20is%20the%20average,more%20to%20your%20site's%20revenue.), page value is the average value for a page that a user visited before landing on the goal page or completing an Ecommerce transaction (or both). In this dataset, the page value number is the average of all pages that a user visited before landing on the goal page, which intuitively would mean that all visitors who ended up purchasing the service/product will have a higher page value than vistors that did not. 
+Page Value as a feature is derived from Google Analytics. According to [Google Analytics](https://support.google.com/analytics/answer/2695658?hl=en#:~:text=Page%20Value%20is%20the%20average,more%20to%20your%20site's%20revenue.), page value is the average value for a page that a user visited before landing on the goal page or completing an Ecommerce transaction (or both). In this dataset, the page value number is the average of all pages that a user visited before landing on the goal page, which intuitively would mean that all visitors who ended up purchasing the service/product will have a higher page value than vistors that did not. 
 
 Due to the strong bias page values would have on my classification models, I ultimately decided to find two models to see the top features that matter when Page Value is included and when Page Value is not included. 
 
