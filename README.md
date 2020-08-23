@@ -22,4 +22,18 @@ Page Value as a feature is derived from Google Analytics. According to [Google A
 
 Due to the strong bias page values would have on my classification models, I ultimately decided to find two models to see the top features that matter when Page Value is included and when Page Value is not included. 
 
-##
+## Conclusion
+
+For both models with and without Page Values, the Logistic Regression had a high F1 score with the highest amount of interpretation of the coefficients.
+
+For Logistic Regression with Page Values, only two features mattered to produce the best score: Page Values and Exit Rates (F1 Score of 0.68).
+
+For Logistic Regression without Page Values, all features had to be put into the model to produce a high F1 score. The top three highest features are Product Related Duration, Month of the Visit, and Exit Rates (F1 Score of 0.37). Although the XGBoost model produced better scores, the confusion matrix is a completely different story (only 11 True Positives, with 335 False Positives). 
+
+It's quite clear that without Page Values, the classifier model suffers greatly - it is the singular most important feature within the dataset for my target variables to be accurate. 
+
+## Further Work
+
+Page value setup is the most critical value when it comes to classifying a visitor's online shopping habit. But this dataset was limited in its scope to allow me to investigate which specific pages would matter the most to the website. Furthermore, if we knew the page values for the different pages setup, we could have potentially removed the final goal page with the highest page value, so we could examine which other pages led the visitor to the final transaction page. 
+
+Ultimately, a recommendation of which kind of pages grabbed the visitor's attention to continue browsing the site would have been the best result to come out of this project. 
