@@ -37,3 +37,12 @@ It's quite clear that without Page Values, the classifier model suffers greatly 
 Page value setup is the most critical value when it comes to classifying a visitor's online shopping habit. But this dataset was limited in its scope to allow me to investigate which specific pages would matter the most to the website. Furthermore, if we knew the page values for the different pages setup, we could have potentially removed the final goal page with the highest page value, so we could examine which other pages led the visitor to the final transaction page. 
 
 Ultimately, a recommendation of which kind of pages grabbed the visitor's attention to continue browsing the site would have been the best result to come out of this project. 
+
+## Tools
+
+- Jupyter Notebook
+- Scikit-Learn
+- Pandas
+- Matplotlib
+- Seaborn
+- Tableau
